@@ -9,34 +9,33 @@
    - To run tests "php artisan test" 
 
 ## Files Created & Edited
-   - [**]Controller
+- [**]Controller
     - TripController 
     - TripReservationController
     - CancelSpotReservationController
 
-   - [**]Interfaces
+- [**]Interfaces
     - ReserveSpotInterface
     - CancelSpotInterface
 
-   - [**]Models
+- [**]Models
     - Trips Model
     - TripReservation Model
 
-   - [**]Services
+- [**]Services
     - ReserveSpotService
     - CancelSpotService
 
-   - [**]Migrations
+- [**]Migrations
+    - [**]Routes/api.php
+    - [**]Providers/AppServiceProvider.php
 
-   - [**]Routes/api.php
-   - [**]Providers/AppServiceProvider.php
-
-   - [**]Tests
+- [**]Tests
     - TripCreationTest
     - TripReservationTest
     - TripReservationCancellationTest
 
-   - [**]Http/Traits
+- [**]Http/Traits
     - ApiResponse
 
 
