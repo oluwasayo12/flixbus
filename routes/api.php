@@ -23,7 +23,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::prefix("v1/trips")->name("trips.")->group(function () {
     Route::post('create', [TripController::class, 'create'])->name("create");
-    Route::post('list', [TripController::class, 'list'])->name("list");
+    Route::get('list/{id}', [TripController::class, 'list'])->name("list");
 });
 
 Route::prefix("v1/trip/reservation")->name("trip_reservation.")->group(function () {
